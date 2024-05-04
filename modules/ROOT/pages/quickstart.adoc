@@ -24,7 +24,7 @@ Start ensuring the prerequsites are satisfied:
     nuv -info
 ----
 
-* Configure the services you want to enable. By default, Nuvolaris will install only the serverless engine, accessible in htt with no services enabled. 
+* Configure the services you want to enable. By default, Nuvolaris will install only the serverless engine, accessible in http with no services enabled. 
 
 If you want to enable all the services, use:
 
@@ -33,7 +33,7 @@ nuv config enable --all
 ----
 
 
-otherwise pick the services you want, among `--redis`, `--mongodb`, `--minio`, `--cron`, `--postgres`. Note that `--mongodb` is actually https://www.ferretdb.io[FerretDB] and requires Postgres which is implicitly also enabled. More details xref:installation:configure.adoc[here]. 
+otherwise pick the services you want, among `--redis`, `--mongodb`, `--minio`, `--cron`, `--postgres`. Note that `--mongodb` is actually https://www.ferretdb.com/[FerretDB] and requires Postgres which is implicitly also enabled. More details xref:installation:configure.adoc[here]. 
 
 Now, choose where to install Nuvolaris. 
 
@@ -193,7 +193,7 @@ nuv setup cluster
 
 For a slightly longer discussion, checking prerequisites before installing, read on.
 
-=== Prerequisited to install
+=== Prerequisites to install
 
 If you have access to a Kubernetes cluster with: 
 
