@@ -18,7 +18,7 @@ If you have a Kubernetes cluster directly accessible with its configuration, or 
 nuv setup cluster 
 ----
 
-Sometimes the kubeconfig includes access to multiple kubernetes, each one identified by a different `<context>` name. You can install in a specified `<context>` with:
+Sometimes the kubeconfig includes access to multiple Kubernetes instances, each one identified by a different `<context>` name. You can install the Nuvolaris cluster in a specified `<context>` with:
 
 ----
 nuv setup cluster <context> 

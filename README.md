@@ -12,7 +12,7 @@ It includes `nuv`, an [all-in-one CLI](https://github.com/nuvolaris/nuvolaris/re
 
 **NOTE**: the Apache OpenWhisk documentation used the `wsk` tool, which is embedded as a subcommand in the `nuv` tool. If you use Nuvolaris, whenever you see `wsk` you should use `nuv wsk` instead. 
 
-In alternative you can add to your `.bashrc` the following:
+In alternative, you can add to your `.bashrc` the following:
 
 ```
 alias wsk='nuv wsk'
