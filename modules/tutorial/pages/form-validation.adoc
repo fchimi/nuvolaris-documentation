@@ -128,7 +128,7 @@ nuv web upload web/
 
 Now if you go to the contact form page the send button should work. It will invoke the submit action which in turn will return some html. 
 
-If you fill it corectly, you should see the "Thank you" page.
+If you fill it correctly, you should see the "Thank you" page.
 
 image::submit.png["Submit Result",align="center"]
 
