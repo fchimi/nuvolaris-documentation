@@ -12,7 +12,24 @@ The `hello.js` script
 function main(args) {
     return { body: "Hello" }
 }
+----
+
 ====
+
+
+----
+The `hello.js` script
+
+====
+
+function main(args) {
+    return { body: "Hello" }
+}
+
+====
+
+----
+
 
 == Simple Action Deployment
 

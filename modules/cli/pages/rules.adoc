@@ -31,7 +31,7 @@ Now, create a trigger that we'll call *notifyAlert*:
 $ nuv trigger create notifyAlert
 ----
 
-It's all ready, and now we can create our rule! The syntax follows this pattern: "nuv rule create {ruleName} {triggerName} {actionName}".
+Now, all is ready, and now we can create our rule! The syntax follows this pattern: "nuv rule create \{ruleName} \{triggerName} \{actionName}".
 
 [source,shell]
 ----
@@ -53,7 +53,7 @@ It's time to fire the trigger!
 
 [source,shell]
 ----
-$ nuv trigger fire notifyAlert                                          
+$ nuv trigger fire notifyAlert
 ok: triggered /notifyAlert with id 86b8d33f64b845f8b8d33f64b8f5f887
 ----
 
@@ -78,16 +78,17 @@ As with all the other commands, you can execute `list`, `update`, and `delete` b
 
 A trigger can enable multiple rules, so firing one trigger actually activates multiple actions. Rules can also be enabled and disabled without removing them. As in the last example, let's try to disable the first rule and fire the trigger again to see what happens.
 
+[source,shell]
+----
+$ nuv rule disable alertRule    <1>
+ok: disabled rule alertRule
+$ nuv trigger fire notifyAlert  <2>
+ok: triggered /_/notifyAlert with id 0f4fa69d910f4c738fa69d910f9c73af
+----
+
 <1> Disabling the rule.
 <2> Firing the trigger again.
 
-[source,shell]
-----
-$ nuv rule disable alertRule    
-ok: disabled rule alertRule
-$ nuv trigger fire notifyAlert
-ok: triggered /_/notifyAlert with id 0f4fa69d910f4c738fa69d910f9c73af
-----
 
 In the activation polling window, we can see that no action is executed now. Of course, we can enable the rule again with:
 

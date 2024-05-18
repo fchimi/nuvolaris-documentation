@@ -16,7 +16,7 @@ When you click on one of these starters (which you can see as ready-to-use templ
 
 OpenAI is already integrated for every starter template. An API key is available by default (with some limits) for each user.
 
-When you need to use it, in your action file inside every package, simply insert in the first lines `--param` as in this example: 
+When you need to use it, in your action file inside every package, simply insert in the first lines `--param` as in this example:
 
 ----
 #--web true
@@ -40,9 +40,9 @@ def main(args):
 
 image::WebIde1.png["WebIde1",align="center"]
 
-Once inside the web IDE, you'll be prompted to enter `Task devel` or `Task deploy` via CLI. Task devel is a nuv feature that will create packages, actions, and web content (placed into the web folder) into your nuvolaris environment. 
+Once inside the web IDE, you'll be prompted to enter `Task devel` or `Task deploy` via CLI. Task devel is a nuv feature that will create packages, actions, and web content (placed into the web folder) into your nuvolaris environment.
 
-So, if you enter `Task devel` or `devel`, a devcontainer will start and you'll see the output of this code immediately via the browser. 
+So, if you enter `Task devel` or `devel`, a devcontainer will start and you'll see the output of this code immediately via the browser.
 
 image::WebIde4.png["WebIde4",align="center"]
 
@@ -50,7 +50,7 @@ image::WebIde4.png["WebIde4",align="center"]
 
 image::Requirements.png["Requirements",align="center"]
 
-Inside the packages folder, you can place a file called `requirements.txt` which will be used to install your needed libraries. 
+Inside the packages folder, you can place a file called `requirements.txt` which will be used to install your needed libraries.
 Here's a simple example:
 
 ----
@@ -62,7 +62,7 @@ requests
 
 As packages need libraries, actions need parameters.
 
-The naming convention to use a parameter is: #--param {paramName} {envParamName}
+The naming convention to use a parameter is: #--param \{paramName} \{envParamName}
 
 Some parameters are available by default inside nuv .env file. To use these parameters, remember to specify them inside every single action, as shown here:
 
@@ -147,7 +147,7 @@ def main(args):
 
 ----
 
-If your action includes in the first line a `#--web true` parameter, the action will be available online via HTTPS, both inside and outside nuvolaris environment. In this way, you can deploy your site as needed. 
+If your action includes in the first line a `#--web true` parameter, the action will be available online via HTTPS, both inside and outside nuvolaris environment. In this way, you can deploy your site as needed.
 
 === Utils
 
