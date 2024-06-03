@@ -4,7 +4,7 @@ The `nuv` command is the command line interface to Nuvolaris
 
 It let's you to install and manipulate the components of the system.
 
-If it is not already included in the development environment provided you can xref:installation:download.adoc[download and installer from here]  
+If it is not already included in the development environment provided you can xref:installation:download.adoc[download the CLI suitable for your platform from here, and install it]  
 
 == Login into the system
 
@@ -14,7 +14,7 @@ The administrator should have provided with username, password and the URL to ac
 
 For example, let's assume you are the user `mirella` and the system is available on `https://nuvolaris.dev`.
 
-In order to login type the following and enter you password.
+In order to login type the following command and enter you password.
 
 ----
 nuv -login https://nuvolaris.dev mirella
