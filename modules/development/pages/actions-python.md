@@ -23,7 +23,7 @@ The process of creating Python actions is similar to that of [other actions](act
 The following sections guide you through creating and invoking a single Python action,
 and demonstrate how to bundle multiple Python files and third party dependencies.
 
-An example action Python action is simply a top-level function.
+An example Python action is simply a top-level function.
 For example, create a file called `hello.py` with the following source code:
 
 ```python
