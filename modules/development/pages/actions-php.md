@@ -19,7 +19,7 @@
 
 ## Creating and invoking PHP actions
 
-The process of creating PHP actions is similar to that of [other actions](actions.md#the-basics).
+The process of creating PHP actions is similar to that of [other actions](actions.html#the-basics).
 The following sections guide you through creating and invoking a single PHP action,
 and demonstrate how to bundle multiple PHP files and third party dependencies.
 
@@ -86,7 +86,7 @@ wsk action create helloPHP hello.php
 The CLI automatically infers the type of the action from the source file extension.
 For `.php` source files, the action runs using a PHP 7.4 runtime.
 
-Action invocation is the same for PHP actions as it is for [any other action](actions.md#the-basics).
+Action invocation is the same for PHP actions as it is for [any other action](actions.html#the-basics).
 
 ```
 wsk action invoke --result helloPHP --param name World
@@ -98,7 +98,7 @@ wsk action invoke --result helloPHP --param name World
 }
 ```
 
-Find out more about parameters in the [Working with parameters](./parameters.md) section.
+Find out more about parameters in the [Working with parameters](./parameters.html) section.
 
 ## Packaging PHP actions in zip files
 
