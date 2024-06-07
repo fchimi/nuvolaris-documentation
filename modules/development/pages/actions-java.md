@@ -19,7 +19,7 @@
 
 ## Creating and invoking Java actions
 
-The process of creating Java actions is similar to that of [other actions](actions.md#the-basics).
+The process of creating Java actions is similar to that of [other actions](actions.html#the-basics).
 The following sections guide you through creating and invoking a single Java action,
 and demonstrate how to bundle multiple files and third party dependencies.
 
@@ -120,4 +120,4 @@ wsk action invoke --result helloJava --param name World
   }
 ```
 
-Find out more about parameters in the [Working with parameters](./parameters.md) section.
+Find out more about parameters in the [Working with parameters](./parameters.html) section.

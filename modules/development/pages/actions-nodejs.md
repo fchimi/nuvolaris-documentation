@@ -19,7 +19,7 @@
 
 ## Creating and invoking JavaScript actions
 
-The process of creating JavaScript actions is similar to that of [other actions](actions.md#the-basics).
+The process of creating JavaScript actions is similar to that of [other actions](actions.html#the-basics).
 The following sections guide you through creating and invoking a single JavaScript action,
 and demonstrate how to bundle multiple JavaScript files and third party dependencies.
 
@@ -190,7 +190,7 @@ This example invokes a Yahoo Weather service to get the current conditions at a 
   }
   ```
 
-This example also passed a parameter to the action by using the `--param` flag and a value that can be changed each time the action is invoked. Find out more about parameters in the [Working with parameters](./parameters.md) section.
+This example also passed a parameter to the action by using the `--param` flag and a value that can be changed each time the action is invoked. Find out more about parameters in the [Working with parameters](./parameters.html) section.
 
 ## Packaging actions as Node.js modules with NPM libraries
 

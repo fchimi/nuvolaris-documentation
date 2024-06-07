@@ -19,11 +19,11 @@
 
 ## Creating and invoking Python actions
 
-The process of creating Python actions is similar to that of [other actions](actions.md#the-basics).
+The process of creating Python actions is similar to that of [other actions](actions.html#the-basics).
 The following sections guide you through creating and invoking a single Python action,
 and demonstrate how to bundle multiple Python files and third party dependencies.
 
-An example action Python action is simply a top-level function.
+An example Python action is simply a top-level function.
 For example, create a file called `hello.py` with the following source code:
 
 ```python
@@ -76,7 +76,7 @@ wsk action invoke --result helloPython --param name World
   }
 ```
 
-Find out more about parameters in the [Working with parameters](./parameters.md) section.
+Find out more about parameters in the [Working with parameters](./parameters.html) section.
 
 ## Packaging Python actions in zip files
 
