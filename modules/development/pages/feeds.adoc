@@ -55,11 +55,11 @@ events, via a REST API that manages notifications.
 == Implementing Feed Actions
 
 The _feed action_ is a normal OpenWhisk and Nuvolaris _action_, but it should accept
-the following parameters: * *lifecycleEvent*: one of `CREATE', `READ',
-`UPDATE', `DELETE', `PAUSE', or `UNPAUSE'. * *triggerName*: the
-fully-qualified name of the trigger which contains events produced from
-this feed. * *authKey*: the Basic auth credentials of the OpenWhisk and Nuvolaris user
-who owns the trigger just mentioned.
+the following parameters:
+
+* *lifecycleEvent*: one of `CREATE', `READ', `UPDATE', `DELETE', `PAUSE', or `UNPAUSE'.
+* *triggerName*: the fully-qualified name of the trigger which contains events produced from this feed. 
+* *authKey*: the Basic auth credentials of the OpenWhisk and Nuvolaris user who owns the trigger just mentioned.
 
 The feed action can also accept any other parameters it needs to manage
 the feed. For example the cloudant changes feed action expects to
